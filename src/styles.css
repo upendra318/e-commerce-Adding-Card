@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.post {
+  background-color: #eee;
+  margin: 3rem;
+  padding: 2px;
+}
+.pagination {
+  margin: 1rem auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.active {
+  border: 1px solid black;
+  border-radius: 4%;
+  padding: 0 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.page-item {
+  cursor: pointer;
+}

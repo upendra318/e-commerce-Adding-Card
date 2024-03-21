@@ -1,0 +1,38 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@emailjs/browser": "4.3.3",
+    "@faker-js/faker": "8.4.1",
+    "firebase": "10.9.0",
+    "mojoauth-web-sdk": "1.1.17",
+    "netlify-cli": "^17.19.6",
+    "react": "^18.0.0",
+    "react-bs-navbar-loader": "1.0.0",
+    "react-dom": "^18.0.0",
+    "react-paginate": "8.2.0",
+    "react-router-dom": "6.22.3",
+    "react-scripts": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.15",
+    "loader-utils": "3.2.1",
+    "typescript": "4.4.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
